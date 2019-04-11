@@ -257,12 +257,20 @@ h3.headline {
 
 .post__image {
 	@apply rounded-lg mb-16 bg-grey-light bg-cover;
-	min-height: 40rem;
+	min-height: 20rem;
 }
 
-.post__image::before {
-	background-attachment: fixed;
+@screen md {
+	.post__image {
+		min-height: 40rem;
+	}
+
+	.post__image::before {
+		background-attachment: fixed;
+	}
 }
+
+
 
 .post__content {
   @apply mx-auto;
