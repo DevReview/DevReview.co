@@ -306,7 +306,7 @@ h3.headline {
 }
 
 .post__author {
-	@apply flex w-1/2 mx-auto mt-10 items-center justify-center;
+	@apply flex w-2/3 mx-auto mt-10 items-center justify-center;
 }
 	.post__author .gravatar {
 		@apply rounded-full mr-5 w-16;
