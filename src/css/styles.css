@@ -61,7 +61,11 @@ h3.headline {
 }
 
 .navigation__item {
-  @apply py-5 mr-5 no-underline text-grey-darker text-base;
+  @apply py-5 no-underline text-grey-darker text-base;
+}
+
+.navigation__item + .navigation__item {
+	@apply ml-5;
 }
 
 .navigation__item--logo {
