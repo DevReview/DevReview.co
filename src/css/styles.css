@@ -330,6 +330,9 @@ h3.headline {
 	.SocialShareList__item:hover {
 		transform: scale(1.15);
 	}
+	.SocialShare .headline {
+		@apply px-10;
+	}
 
 .Newsletter {
 	@apply rounded-bl rounded-br bg-grey-light py-10 mx-auto text-center;
@@ -341,6 +344,9 @@ h3.headline {
 	}
 	.Newsletter button {
 		@apply w-2/3 mx-auto;
+	}
+	.Newsletter .headline {
+		@apply px-10;
 	}
 	@screen md {
 		.Newsletter input {
