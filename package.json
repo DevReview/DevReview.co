@@ -1,0 +1,54 @@
+{
+  "name": "DevReview.co",
+  "private": true,
+  "description": "Código oficial do DevReview.co.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "disqus-react": "^1.0.5",
+    "gatsby": "^2.1.27",
+    "gatsby-background-image": "^0.2.8-beta",
+    "gatsby-image": "^2.0.37",
+    "gatsby-plugin-categories": "^2.2.0",
+    "gatsby-plugin-google-analytics": "^2.0.17",
+    "gatsby-plugin-nprogress": "^2.0.10",
+    "gatsby-plugin-postcss": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.8",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-embed-gist": "^1.1.7",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-remark-prismjs": "^3.2.8",
+    "gatsby-source-filesystem": "^2.0.24",
+    "gatsby-transformer-remark": "^2.3.2",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "gravatar": "^1.8.0",
+    "prism-themes": "^1.1.0",
+    "prismjs": "^1.16.0",
+    "prismjs-material-theme": "^1.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-share": "^2.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "tailwindcss": "^0.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
