@@ -1,10 +1,12 @@
 module.exports = {
 	siteMetadata: {
+		siteUrl: `https://devreview.co`,
 		title: 'DevReview',
 		description: 'Artigos sobre Frontend, Desenvolvimento Web, UX e carreira em TI',
 		author: 'Israel Júnior'
 	},
 	plugins: [
+		`gatsby-plugin-sitemap`,
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-postcss`,
     `gatsby-plugin-sharp`,
