@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Hero from '../components/Hero'
 import SocialShare from '../components/SocialShare'
 import Newsletter from '../components/Newsletter'
+import SEO from '../components/SEO'
 import BackgroundImage from 'gatsby-background-image'
 import { DiscussionEmbed } from 'disqus-react';
 
@@ -23,10 +24,16 @@ class Post extends React.Component {
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
-		};
+		}
+
+		const seo = {
+			title: post.frontmatter.title,
+			description: post.frontmatter.excerpt
+		}
 
     return (
       <Layout>
+				<SEO title={seo.title} description={seo.description}/>
 
         <div className="container">
           <article className="post">

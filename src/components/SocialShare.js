@@ -10,8 +10,8 @@ class SocialShare extends React.Component {
 	render() {
 		const shareProps = {
 			via: 'DevReview',
-			url: `//devreview.co/${this.props.url}`,
-			title: `${this.props.shareProps.frontmatter.title} · Um artigo @DevReview:`,
+			url: `https://devreview.co/${this.props.url}`,
+			title: `${this.props.shareProps.frontmatter.title} · Um artigo @DevReview`,
 			description: this.props.shareProps.frontmatter.description,
 			hashtags: [`${this.props.shareProps.frontmatter.categorySlug}`],
 			subject: `${this.props.shareProps.frontmatter.title} · Um artigo DevReview`,
